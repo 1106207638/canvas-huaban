@@ -4,6 +4,37 @@
   box-sizing: border-box;
 }
 #canvas {
-  border: 1px solid red;
   display: block;
+}
+.color {
+  position: fixed;
+  z-index: 11;
+  left: 20px;
+  top: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 40vh;
+  justify-content: space-evenly;
+}
+.color > button {
+  border-radius: 50%;
+  padding: 10px;
+}
+.black {
+  background: black;
+}
+.red {
+  background: red;
+}
+.blue {
+  background: blue;
+}
+.green {
+  background: green;
+}
+.white {
+  background: white;
+}
+.yellow {
+  background: yellow;
 }
